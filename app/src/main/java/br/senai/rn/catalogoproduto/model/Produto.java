@@ -1,4 +1,4 @@
-package br.senai.rn.catalogodeprodutos2.model;
+package br.senai.rn.catalogoproduto.model;
 
 import java.io.Serializable;
 import java.util.Objects;

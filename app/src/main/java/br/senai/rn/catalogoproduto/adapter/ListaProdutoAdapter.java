@@ -1,4 +1,4 @@
-package br.senai.rn.catalogodeprodutos2.adapter;
+package br.senai.rn.catalogoproduto.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,12 +7,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import br.senai.rn.catalogodeprodutos2.R;
+import br.senai.rn.catalogoproduto.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.senai.rn.catalogodeprodutos2.model.Produto;
+import br.senai.rn.catalogoproduto.model.Produto;
 
 public class ListaProdutoAdapter extends BaseAdapter {
 

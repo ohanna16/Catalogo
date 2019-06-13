@@ -1,4 +1,4 @@
-package br.senai.rn.catalogodeprodutos2.activities;
+package br.senai.rn.catalogoproduto.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,10 +14,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import br.senai.rn.catalogodeprodutos2.R;
-import br.senai.rn.catalogodeprodutos2.adapter.ListaProdutoAdapter;
-import br.senai.rn.catalogodeprodutos2.dao.ProdutoDAO;
-import br.senai.rn.catalogodeprodutos2.model.Produto;
+import br.senai.rn.catalogoproduto.R;
+import br.senai.rn.catalogoproduto.adapter.ListaProdutoAdapter;
+import br.senai.rn.catalogoproduto.dao.ProdutoDAO;
+import br.senai.rn.catalogoproduto.model.Produto;
 
 public class ListaProdutoActivity extends AppCompatActivity {
     private ListView listaProdutos;

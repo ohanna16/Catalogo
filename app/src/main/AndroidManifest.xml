@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.senai.rn.catalogodeprodutos2">
+    package="br.senai.rn.catalogoproduto">
 
     <application
         android:allowBackup="true"
@@ -7,17 +7,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name="br.senai.rn.catalogodeprodutos2.CatalogoApplication"
+        android:name="br.senai.rn.catalogoproduto.CatalogoApplication"
         android:theme="@style/AppTheme" >
 
-    <activity android:name=".activities.ListaProdutoActivity">
+    <activity android:name="br.senai.rn.catalogoproduto.activities.ListaProdutoActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
 
-        <activity android:name=".activities.FormularioProdutoActivity"/>
+        <activity android:name="br.senai.rn.catalogoproduto.activities.FormularioProdutoActivity"/>
     </application>
 
 </manifest>

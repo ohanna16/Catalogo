@@ -1,10 +1,10 @@
-package br.senai.rn.catalogodeprodutos2.dao;
+package br.senai.rn.catalogoproduto.dao;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import br.senai.rn.catalogodeprodutos2.model.Produto;
+import br.senai.rn.catalogoproduto.model.Produto;
 
 public class ProdutoDAO {
 

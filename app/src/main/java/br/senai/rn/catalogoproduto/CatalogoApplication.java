@@ -1,9 +1,9 @@
-package br.senai.rn.catalogodeprodutos2;
+package br.senai.rn.catalogoproduto;
 
 import android.app.Application;
 
-import br.senai.rn.catalogodeprodutos2.dao.ProdutoDAO;
-import br.senai.rn.catalogodeprodutos2.model.Produto;
+import br.senai.rn.catalogoproduto.dao.ProdutoDAO;
+import br.senai.rn.catalogoproduto.model.Produto;
 
 public class CatalogoApplication extends Application {
 

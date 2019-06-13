@@ -1,4 +1,4 @@
-package br.senai.rn.catalogodeprodutos2.activities;
+package br.senai.rn.catalogoproduto.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import br.senai.rn.catalogodeprodutos2.R;
-import br.senai.rn.catalogodeprodutos2.dao.ProdutoDAO;
-import br.senai.rn.catalogodeprodutos2.model.Produto;
+import br.senai.rn.catalogoproduto.R;
+import br.senai.rn.catalogoproduto.dao.ProdutoDAO;
+import br.senai.rn.catalogoproduto.model.Produto;
 
 public class FormularioProdutoActivity extends AppCompatActivity {
 
