@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/backGround"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/activity_formulario_produto_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Nome"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/activity_formulario_produtoPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Preço"
+        android:inputType="numberDecimal"/>
+
+
+    <EditText
+        android:id="@+id/activity_formulario_produtoFab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Fabricante"
+        android:inputType="textCapWords"/>
+
+    <Button
+        android:id="@+id/botaoSalvar"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/botao"
+        android:text="Salvar" />
+
+</LinearLayout>
